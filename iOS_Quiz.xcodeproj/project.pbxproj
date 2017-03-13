@@ -17,6 +17,15 @@
 		EB541FA91E7368A9004B06D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB541FA71E7368A9004B06D1 /* LaunchScreen.storyboard */; };
 		EB541FB41E7368AA004B06D1 /* iOS_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB541FB31E7368AA004B06D1 /* iOS_QuizTests.swift */; };
 		EB541FBF1E7368AB004B06D1 /* iOS_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB541FBE1E7368AB004B06D1 /* iOS_QuizUITests.swift */; };
+		EB541FCD1E74B4F4004B06D1 /* thud.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB541FCC1E74B4F4004B06D1 /* thud.mp3 */; };
+		EB541FCF1E74DBD4004B06D1 /* bgm.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB541FCE1E74DBD4004B06D1 /* bgm.wav */; };
+		EB541FD21E74E9ED004B06D1 /* blarg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB541FD11E74E9ED004B06D1 /* blarg.mp3 */; };
+		EB541FE01E75B65D004B06D1 /* civ_pain1.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB541FDF1E75B65D004B06D1 /* civ_pain1.wav */; };
+		EB541FE51E75C5C2004B06D1 /* siren.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB541FE41E75C5C2004B06D1 /* siren.wav */; };
+		EB541FE71E75E519004B06D1 /* gameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EB541FE61E75E519004B06D1 /* gameOverScene.sks */; };
+		EB541FEB1E75F388004B06D1 /* gameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB541FEA1E75F388004B06D1 /* gameOverScene.swift */; };
+		EB541FED1E76F184004B06D1 /* meow.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB541FEC1E76F184004B06D1 /* meow.wav */; };
+		EB541FEF1E7737BC004B06D1 /* fail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EB541FEE1E7737BC004B06D1 /* fail.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +62,15 @@
 		EB541FBA1E7368AB004B06D1 /* iOS_QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB541FBE1E7368AB004B06D1 /* iOS_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_QuizUITests.swift; sourceTree = "<group>"; };
 		EB541FC01E7368AB004B06D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB541FCC1E74B4F4004B06D1 /* thud.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = thud.mp3; path = ../../thud.mp3; sourceTree = "<group>"; };
+		EB541FCE1E74DBD4004B06D1 /* bgm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = bgm.wav; path = ../../bgm.wav; sourceTree = "<group>"; };
+		EB541FD11E74E9ED004B06D1 /* blarg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = blarg.mp3; path = ../../blarg.mp3; sourceTree = "<group>"; };
+		EB541FDF1E75B65D004B06D1 /* civ_pain1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = civ_pain1.wav; path = ../../civ_pain1.wav; sourceTree = "<group>"; };
+		EB541FE41E75C5C2004B06D1 /* siren.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = siren.wav; path = ../../siren.wav; sourceTree = "<group>"; };
+		EB541FE61E75E519004B06D1 /* gameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = gameOverScene.sks; sourceTree = "<group>"; };
+		EB541FEA1E75F388004B06D1 /* gameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameOverScene.swift; sourceTree = "<group>"; };
+		EB541FEC1E76F184004B06D1 /* meow.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = meow.wav; path = ../../meow.wav; sourceTree = "<group>"; };
+		EB541FEE1E7737BC004B06D1 /* fail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = fail.mp3; path = ../../fail.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,14 +122,23 @@
 			isa = PBXGroup;
 			children = (
 				EB541F981E7368A7004B06D1 /* AppDelegate.swift */,
-				EB541F9A1E7368A7004B06D1 /* GameScene.sks */,
 				EB541F9C1E7368A8004B06D1 /* Actions.sks */,
+				EB541FE61E75E519004B06D1 /* gameOverScene.sks */,
+				EB541FEA1E75F388004B06D1 /* gameOverScene.swift */,
+				EB541F9A1E7368A7004B06D1 /* GameScene.sks */,
 				EB541F9E1E7368A8004B06D1 /* GameScene.swift */,
 				EB541FA01E7368A8004B06D1 /* GameViewController.swift */,
 				EB541FA21E7368A8004B06D1 /* Main.storyboard */,
 				EB541FA51E7368A9004B06D1 /* Assets.xcassets */,
 				EB541FA71E7368A9004B06D1 /* LaunchScreen.storyboard */,
 				EB541FAA1E7368A9004B06D1 /* Info.plist */,
+				EB541FDF1E75B65D004B06D1 /* civ_pain1.wav */,
+				EB541FEE1E7737BC004B06D1 /* fail.mp3 */,
+				EB541FCC1E74B4F4004B06D1 /* thud.mp3 */,
+				EB541FE41E75C5C2004B06D1 /* siren.wav */,
+				EB541FD11E74E9ED004B06D1 /* blarg.mp3 */,
+				EB541FEC1E76F184004B06D1 /* meow.wav */,
+				EB541FCE1E74DBD4004B06D1 /* bgm.wav */,
 			);
 			path = iOS_Quiz;
 			sourceTree = "<group>";
@@ -244,11 +271,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB541FEF1E7737BC004B06D1 /* fail.mp3 in Resources */,
+				EB541FED1E76F184004B06D1 /* meow.wav in Resources */,
 				EB541FA41E7368A8004B06D1 /* Main.storyboard in Resources */,
 				EB541F9B1E7368A7004B06D1 /* GameScene.sks in Resources */,
 				EB541FA61E7368A9004B06D1 /* Assets.xcassets in Resources */,
+				EB541FE51E75C5C2004B06D1 /* siren.wav in Resources */,
 				EB541FA91E7368A9004B06D1 /* LaunchScreen.storyboard in Resources */,
+				EB541FE71E75E519004B06D1 /* gameOverScene.sks in Resources */,
+				EB541FE01E75B65D004B06D1 /* civ_pain1.wav in Resources */,
+				EB541FCF1E74DBD4004B06D1 /* bgm.wav in Resources */,
 				EB541F9D1E7368A8004B06D1 /* Actions.sks in Resources */,
+				EB541FCD1E74B4F4004B06D1 /* thud.mp3 in Resources */,
+				EB541FD21E74E9ED004B06D1 /* blarg.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB541FEB1E75F388004B06D1 /* gameOverScene.swift in Sources */,
 				EB541F9F1E7368A8004B06D1 /* GameScene.swift in Sources */,
 				EB541FA11E7368A8004B06D1 /* GameViewController.swift in Sources */,
 				EB541F991E7368A7004B06D1 /* AppDelegate.swift in Sources */,
@@ -430,7 +466,7 @@
 				DEVELOPMENT_TEAM = XKHZH6NV2Y;
 				INFOPLIST_FILE = iOS_Quiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.iOS-Quiz";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.iOS-Quiz2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -443,7 +479,7 @@
 				DEVELOPMENT_TEAM = XKHZH6NV2Y;
 				INFOPLIST_FILE = iOS_Quiz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.iOS-Quiz";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.iOS-Quiz2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
